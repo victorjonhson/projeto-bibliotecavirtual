@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biblioteca Virtual</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- Menu -->
+    <ul class="nav justify-content-center nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Livros</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="categorias/abalos.html">Abalos</a></li>
+                <li><a class="dropdown-item" href="categorias/historiajc.html">História Política</a></li>
+                <li><a class="dropdown-item" href="#">Isabele Barbosa</a></li>
+                <li><a class="dropdown-item" href="#">Mendonças do Amarelão</a></li>
+                <li><a class="dropdown-item" href="#">SPVB Essências</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Informações</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+        </li>
+    </ul>
+
+    <img src="imagens/logo.png" class="rounded mx-auto d-block logo" alt="...">
+
+
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4">Biblioteca Virtual</h1>
+
+        <!-- TEXTO 1-->
+        <figure class="text-center bg-primary-subtle texto1">
+            <blockquote class="blockquote">
+                <p class="lead">A Biblioteca Virtual da Câmara Municipal de João Câmara surge como uma importante iniciativa de preservação da memória histórica, cultural e política do município. Desenvolvida com o objetivo de democratizar o acesso ao conhecimento, a
+                    plataforma reúne obras digitais que valorizam a identidade camarense, permitindo que estudantes, pesquisadores e a população em geral tenham acesso gratuito a conteúdos históricos e culturais da região.</p>
+                <p class="lead">O acervo da biblioteca contempla livros e documentos relacionados aos acontecimentos históricos de Abalos, além de obras que retratam a formação social, cultural e política do município. Entre os destaques, encontram-se registros sobre
+                    a cultura indígena dos Mendonças, importante grupo tradicional ligado à história e às raízes culturais de João Câmara, contribuindo para o fortalecimento da memória dos povos originários e da diversidade cultural local.</p>
+                <p class="lead">Além disso, a biblioteca virtual também reúne materiais voltados à história política do município, apresentando conteúdos que ajudam a compreender a trajetória administrativa, legislativa e social da cidade ao longo dos anos. Dessa forma,
+                    a iniciativa fortalece o compromisso da Câmara Municipal com a valorização da educação, da cultura e da preservação do patrimônio histórico camarense.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Entendendo a criação da<cite title="Source Title"> Biblioteca Virtual</cite>
+            </figcaption>
+        </figure>
+
+        <!-- Campo de Pesquisa -->
+        <input type="text" id="pesquisa" class="form-control mb-4" placeholder="Pesquisar acervo...">
+
+        <!-- Categorias -->
+        <div class="mb-4">
+            <a href="categorias/literatura.html" class="btn bg-primary-subtle">
+                Abalos
+            </a>
+
+            <a href="categorias/ciencia.html" class="btn btn-primary">
+                História Política
+            </a>
+
+            <a href="categorias/tecnologia.html" class="btn btn-dark">
+                Isabela Barbosa
+            </a>
+
+            <a href="categorias/tecnologia.html" class="btn bg-primary-subtle">
+                Medonças do Amarelão
+            </a>
+
+            <a href="categorias/tecnologia.html" class="btn btn-primary">
+                SPVB Essências
+            </a>
+        </div>
+
+        <!-- Lista de Livros -->
+        <div class="row" id="lista-livros">
+
+            <!-- Livro -->
+            <div class="col-md-4 livro mb-4">
+                <div class="card h-100">
+
+                    <img src="imagens/capa1.png" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Abalos
+                        </h5>
+
+                        <p class="card-text">
+                            Livros em PDF
+                        </p>
+
+                        <a href="livros/literatura/dom-casmurro.pdf" class="btn btn-primary " download>
+                            Acessar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outro Livro -->
+            <div class="col-md-4 livro mb-4">
+                <div class="card h-100">
+
+                    <img src="imagens/jc.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            História Política de João Câmara
+                        </h5>
+
+                        <p class="card-text">
+                            Diversidade de livros em PDF
+                        </p>
+
+                        <a href="categorias/historiajc.html" class="btn btn-primary" download>
+                            Acessar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Livro -->
+            <div class="col-md-4 livro mb-4">
+                <div class="card h-100">
+
+                    <img src="imagens/capa4.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Mendonças do Amarelão
+                        </h5>
+
+                        <p class="card-text">
+                            Cultura Indígena
+                        </p>
+
+                        <a href="livros/tecnologia/html-css.pdf" class="btn btn-primary" download>
+                            Acessar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outro Livro -->
+            <div class="col-md-4 livro mb-4">
+                <div class="card h-100">
+
+                    <img src="imagens/capa3.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Isabele Barbosa
+                        </h5>
+
+                        <p class="card-text">
+                            Livros diversos
+                        </p>
+
+                        <a href="livros/tecnologia/html-css.pdf" class="btn btn-primary" download>
+                            Acessar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 Livro -->
+            <div class="col-md-4 livro mb-4">
+                <div class="card h-100">
+
+                    <img src="imagens/capa5.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            SPVB Essências
+                        </h5>
+
+                        <p class="card-text">
+                            Antologia Poética
+                        </p>
+
+                        <a href="livros/tecnologia/html-css.pdf" class="btn btn-primary" download>
+                            Acessar
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Fim -->
+    <div class="text-center p-3 bg-dark text-white">
+        Bilioteca Virtual - Câmara Municipal de João Câmara - Todos os direitos reservados
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
