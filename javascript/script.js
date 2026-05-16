@@ -1,4 +1,4 @@
-conaddst pesquisa = document.getElementById('pesquisa');
+const pesquisa = document.getElementById('pesquisa');
 
 pesquisa.addEventListener('keyup', () => {
 
