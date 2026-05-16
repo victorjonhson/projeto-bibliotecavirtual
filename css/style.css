@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.logo {
+    width: 18%;
+}
+
+.texto1 {
+    padding: 35px;
+}
